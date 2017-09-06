@@ -1,4 +1,4 @@
-package prms_nextBiggerNum;
+package prms_nextBiggerNumer;
 
 /*어떤 수 N(1≤N≤1,000,000) 이 주어졌을 때, N의 다음 큰 숫자는 다음과 같습니다.
 
