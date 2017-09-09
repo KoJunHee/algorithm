@@ -30,7 +30,6 @@ public class NoOvertime {
                 }
             }
         }
-
         //제곱 값
         result = calSquare(works);
         return result;
