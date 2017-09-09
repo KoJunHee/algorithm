@@ -4,7 +4,7 @@ public class Caesar {
     String caesar(String s, int n) {
         String result = "";
         char temp;
-        
+
         for(int i=0; i<s.length(); i++){
             temp = ' ';
             if(Character.isLowerCase(s.charAt(i)))
