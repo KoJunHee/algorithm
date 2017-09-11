@@ -60,13 +60,43 @@ public class Main {
                 dfs(nodeNum);
             }
         }
+    }
+
+    //bfs
+    public static void bfs(int point){
+
+        //방문 지점 초기화, 큐 생성
+        Arrays.fill(visit, false);
+        Queue<Integer> queue = new LinkedList<Integer>();
+
+        //큐에 넣고, 방문 했다고 체크
+        queue.add(point);
+        visit[point] = true;
+        
+        //모든 지점을 방문할 때까지
+        while (!queue.isEmpty()) {
+
+            int visitNode = queue.remove();
+            System.out.print(visitNode + " ");
+
+            //해당지점에서 연결된 노드를 방문했는지. 방문 안했으면 큐에 넣기
+            for (int nodeNum : arr[visitNode]) {
+                if (visit[nodeNum] == false) {
+                    visit[nodeNum] = true;
+                    queue.add(nodeNum);
+                }
+            }
+        }
 
     }
-    
+
     //main
     public static void main(String args[]) {
         init();
         dfs(start);
+        System.out.println();
+
+        bfs(start);
         System.out.println();
     }
 }

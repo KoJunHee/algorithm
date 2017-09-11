@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bj_1260/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bj_1260/Main.java" afterPath="$PROJECT_DIR$/src/bj_1260/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,9 +17,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bj_1260/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="536">
+              <caret line="74" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding>
+                <element signature="e#1412#1421#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -728,9 +729,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_1260/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="536">
+          <caret line="74" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#1412#1421#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
