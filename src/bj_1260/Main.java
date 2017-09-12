@@ -72,7 +72,7 @@ public class Main {
         //큐에 넣고, 방문 했다고 체크
         queue.add(point);
         visit[point] = true;
-        
+
         //모든 지점을 방문할 때까지
         while (!queue.isEmpty()) {
 
