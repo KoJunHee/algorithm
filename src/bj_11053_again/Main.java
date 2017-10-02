@@ -1,9 +1,10 @@
-package bj_11053;
+package bj_11053_again;
 
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String [] args){
+
         Scanner scanner = new Scanner(System.in);
         int ans=0;
 
@@ -13,20 +14,20 @@ public class Main {
         for(int i=1; i<=n; i++)
             a[i] = scanner.nextInt();
 
-        // d[n] : 첫번째 ~ n 번째 까지 가장 큰 값
+        // d[n] : a[i] 를 가장 마지막으로 하는 가장 긴 증가하는 부분 수열의 길이
         int d[] = new int[n+1];
 
-        //전 값과 비교
-        for(int i=1; i<=n; i++){
 
-            //i번째와 i-1번째 비교 => i번째가 크면
-            if(a[i-1] < a[i]) {
-                d[i] = a[i];
-                ans++;
+        for(int i=1; i<=n; i++){
+            d[i]=1;
+
+            for(int j=0; j<i; j++){
+                if(a[j]<a[i] && d[i] < d[j]+1)
+                    d[i] = d[j]+1;
             }
-            else
-                d[i] = d[i-1];
+            ans = Math.max(ans, d[i]);
         }
+
 
         System.out.println(ans);
 

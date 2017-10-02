@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main{
 
     public static int d[];
-    public static void main(String []args){
+    public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         d = new int[n+1];
