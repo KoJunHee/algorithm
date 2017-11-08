@@ -21,8 +21,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int m = scanner.nextInt();
+        int n = scanner.nextInt(); //정점의 개수
+        int m = scanner.nextInt(); //간선의 개수
 
         //연결리스트 생성
         ArrayList<Integer>[] a = (ArrayList<Integer>[]) new ArrayList[n + 1];
