@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bj_10820/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bj_11656/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bj_1991/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,14 +18,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bj_11656/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="e#277#285#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="504">
+              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bj_1991/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bj_1260/Main.java" />
         <option value="$PROJECT_DIR$/src/prms_jumpCase/JumpCase.java" />
         <option value="$PROJECT_DIR$/src/bj_1463/Main.java" />
         <option value="$PROJECT_DIR$/out/production/algor/bj_11726/Main.class" />
@@ -120,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/bj_2146/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_10820/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_11656/Main.java" />
+        <option value="$PROJECT_DIR$/src/bj_1991/Main.java" />
       </list>
     </option>
   </component>
@@ -145,6 +152,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,7 +182,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -185,6 +193,12 @@
               <item name="algorithm" type="1abcf292:AndroidViewProjectNode" />
               <item name="algor" type="1039202d:NonAndroidModuleNode" />
               <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="1abcf292:AndroidViewProjectNode" />
+              <item name="algor" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="bj_1991" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="1abcf292:AndroidViewProjectNode" />
@@ -202,8 +216,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,11 +251,11 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="bj_11656.*" />
+          <option name="PATTERN" value="bj_1991.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="bj_11656.Main" />
+      <option name="MAIN_CLASS_NAME" value="bj_1991.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -368,6 +381,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -407,13 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bj_9461/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_2225/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -741,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,19 +762,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_11656/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#277#285#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bj_1991/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
