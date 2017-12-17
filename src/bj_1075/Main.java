@@ -11,33 +11,25 @@ public class Main {
         int n = scanner.nextInt();
         int f = scanner.nextInt();
 
-        //정수의 자릿수
-        int length = (int) (Math.log10(n) + 1);
-
-        //끝 수 다 0으로 만들기
-        int temp = (int) Math.pow(10, length - 1);
-        int resNum = (n / temp) * temp;
+        //끝자리 다 0으로
+        n = n / 100;
+        n = n * 100;
 
 
         //solve
-        while (true) {
-
-            if (resNum % f == 0) {
-                break;
-            } else {
-                resNum++;
-            }
+        while (n % f != 0) {
+            n++;
         }
 
-        //끝 두 자리만 출력
-        String resStr = Integer.toString(resNum % 100);
+        //뒷 두 자리
+        n = n % 100;
 
-        if (resStr.length() == 1) {
-            System.out.println('0' + resStr);
-        } else {
-            System.out.println(resStr);
-
+        //앞에 0
+        if (n < 10) {
+            System.out.print('0');
         }
+
+        System.out.println(n);
 
 
     }
