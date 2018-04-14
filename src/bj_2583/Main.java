@@ -15,7 +15,6 @@ public class Main {
     static int dx[] = {0, -1, 0, 1};
     static int dy[] = {1, 0, -1, 0};
 
-
     public static void main(String[] args) {
 
         // 초기화
@@ -46,32 +45,33 @@ public class Main {
     }
 
     // 탐색
-    public static int search(int y, int x) {
+    public static int search(int x, int y) {
 
 
         int sum = 1;
 
         //동서남북
         for (int q = 0; q < 4; q++) {
-            if(check(y + dy[q], x + dx[q])){
-                visit[y + dy[q]][x + dx[q]] = true;
-                sum += search(y + dy[q], x + dx[q]);
+            if(check(x + dx[q], y + dy[q])){
+                visit[x + dx[q]][y + dy[q]] = true;
+                sum += search(x + dx[q], y + dy[q]);
             }
         }
 
         return sum;
     }
 
+
     // 체크
-    public static boolean check(int y, int x) {
+    public static boolean check(int x, int y) {
 
         // 종이 밖
-        if (y < 0 || y >= m || x < 0 || x >= n) {
+        if (x < 0 || x >= m || y < 0 || y >= n) {
             return false;
         }
 
         // 이미 칠해져 있거나 방문햇으면
-        if (visit[y][x] || a[y][x]) {
+        if (visit[x][y] || a[x][y]) {
             return false;
         }
 
@@ -102,7 +102,8 @@ public class Main {
                     a[y][x] = true;
                 }
             }
-
         }
     }
+
+
 }
