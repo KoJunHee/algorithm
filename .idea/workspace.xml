@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bj_14502/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bj_4991/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algor/test/Main.class" afterPath="$PROJECT_DIR$/out/production/algor/test/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bj_14502/Main.java" afterPath="$PROJECT_DIR$/src/bj_14502/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,12 +29,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bj_14502/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-907">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#592#599#0" expanded="true" />
-                <element signature="e#2777#2784#0" expanded="true" />
+                <element signature="e#558#565#0" expanded="true" />
+                <element signature="e#2577#2584#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,12 +77,12 @@
       <find>sys</find>
       <find>isVisited</find>
       <find>arr</find>
-      <find>isvi</find>
       <find>reco</find>
       <find>arrmax_value</find>
       <find>copy</find>
       <find>dfs</find>
       <find>system</find>
+      <find>isvi</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -164,9 +161,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="241" />
     <option name="y" value="23" />
     <option name="width" value="1453" />
-    <option name="height" value="877" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -383,7 +381,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1453" height="877" extended-state="0" />
+    <frame x="241" y="23" width="1453" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -431,7 +429,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -622,12 +620,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_14502/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-907">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#592#599#0" expanded="true" />
-            <element signature="e#2777#2784#0" expanded="true" />
+            <element signature="e#558#565#0" expanded="true" />
+            <element signature="e#2577#2584#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -21,7 +21,6 @@ public class Main {
     static int n, m;
     static int arr[][];
     static int tempArr[][];
-    static boolean isVisited[][];
     static int dx[] = {0, 0, 1, -1};
     static int dy[] = {1, -1, 0, 0};
     static int ans = 0;
@@ -34,7 +33,6 @@ public class Main {
 
         arr = new int[n][m];
         tempArr = new int[n][m];
-        isVisited = new boolean[n][m];
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
@@ -86,7 +84,6 @@ public class Main {
 
         //벽
         arr[i][j] = 1;
-        isVisited[i][j] = true;
 
         //바이러스 퍼짐
         if (cnt == 3) {
@@ -104,7 +101,6 @@ public class Main {
             // 바이러스 퍼진거 복귀
             recovery(arr);
 
-            isVisited[i][j] = false;
             arr[i][j] = 0;
             return;
         }
@@ -112,7 +108,7 @@ public class Main {
         // 기둥 세우기
         for (int q = i; q < n; q++) {
             for (int w = 0; w < m; w++) {
-                if (!isVisited[q][w] && arr[q][w] == 0) {
+                if(arr[q][w]==0){
                     dfs(q, w, cnt + 1);
                 }
             }
@@ -120,12 +116,10 @@ public class Main {
 
         //초기화
         arr[i][j] = 0;
-        isVisited[i][j] = false;
     }
 
     // 바이러스 퍼짐
     public static void bfs() {
-
         Queue<Point> queue = new LinkedList<Point>();
         for (int i = 0; i < arrayList.size(); i++) {
             queue.add(arrayList.get(i));
