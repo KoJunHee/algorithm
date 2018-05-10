@@ -40,7 +40,7 @@ public class Main {
     public static void bfs() {
         Queue<Status> queue = new LinkedList<Status>();
         queue.add(new Status(0, 0, c));
-        isVisited[0][0] = true;
+
 
         while (!queue.isEmpty()) {
 
