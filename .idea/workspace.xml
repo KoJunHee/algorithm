@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bj_2644/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj_3055/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj_5014/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap_test/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heap_test/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +23,9 @@
     <SUITE FILE_PATH="coverage/algorithm$Main.coverage" NAME="Main Coverage Results" MODIFIED="1516370613755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>bj_9084.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/algorithm$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1528341407333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tes02.*</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
@@ -28,17 +37,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bj_2644/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/bj_3055/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+            <state relative-caret-position="-1800">
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#1452#1460#0" expanded="true" />
+                <element signature="e#581#588#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,16 +121,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ass2_3/ElectricPowerSwitch.java" />
-        <option value="$PROJECT_DIR$/src/ass2_3/ISwitch.java" />
-        <option value="$PROJECT_DIR$/src/ass2_3/Fan.java" />
-        <option value="$PROJECT_DIR$/src/ass2_3/LightBulb.java" />
-        <option value="$PROJECT_DIR$/src/ass2_4/ToyHouse.java" />
         <option value="$PROJECT_DIR$/src/ass2_4/ToyPlane.java" />
         <option value="$PROJECT_DIR$/src/ass2_4/ToyCar.java" />
         <option value="$PROJECT_DIR$/src/ass2_4/Toy.java" />
         <option value="$PROJECT_DIR$/src/ass2_3/Main.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_11403/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_2583/Main.java" />
         <option value="$PROJECT_DIR$/src/ass2_1/Main.java" />
@@ -161,6 +166,12 @@
         <option value="$PROJECT_DIR$/src/bj_2468/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_7562/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_2644/Main.java" />
+        <option value="$PROJECT_DIR$/src/bj_5014/Main.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/heap_test/Main.java" />
+        <option value="$PROJECT_DIR$/src/heap_test/Heap.java" />
+        <option value="$PROJECT_DIR$/src/tes02/Main.java" />
+        <option value="$PROJECT_DIR$/src/bj_3055/Main.java" />
       </list>
     </option>
   </component>
@@ -174,9 +185,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
     <option name="y" value="23" />
-    <option name="width" value="1538" />
+    <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -187,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,18 +213,14 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bj_2468" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bj_12761" type="462c0819:PsiDirectoryNode" />
+              <item name="bj_3055" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -227,7 +232,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,28 +265,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_2468.Main" />
+      <option name="MAIN_CLASS_NAME" value="tes02.Main" />
       <module name="algor" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bj_2468.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_7562.Main" />
-      <module name="algor" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bj_7562.*" />
+          <option name="PATTERN" value="tes02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,24 +291,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_1953.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bj_5014.Main" />
       <module name="algor" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bj_1953.*" />
+          <option name="PATTERN" value="bj_5014.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bj_3055.Main" />
+      <module name="algor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bj_3055.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_1697.Main" />
+      <option name="MAIN_CLASS_NAME" value="heap_test.Main" />
       <module name="algor" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bj_1697.*" />
+          <option name="PATTERN" value="heap_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,19 +379,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -413,12 +417,18 @@
       <workItem from="1527159642338" duration="11000" />
       <workItem from="1527433163272" duration="2681000" />
       <workItem from="1527479943387" duration="1346000" />
-      <workItem from="1527492915370" duration="1799000" />
+      <workItem from="1527492915370" duration="2353000" />
+      <workItem from="1527514319367" duration="15000" />
+      <workItem from="1527840735014" duration="2204000" />
+      <workItem from="1527858976453" duration="72000" />
+      <workItem from="1528277654939" duration="7141000" />
+      <workItem from="1528328296049" duration="2370000" />
+      <workItem from="1528356882009" duration="4495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24493000" />
+    <option name="totallyTimeSpent" value="41344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,23 +440,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="23" width="1538" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49730563" weight="0.32254046" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50416666" side_tool="true" weight="0.3985056" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" weight="0.3860523" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" weight="0.38480696" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.44209215" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4483188" visible="true" weight="0.12418725" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" visible="true" weight="0.16527778" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -457,11 +468,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49730563" weight="0.32254046" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32642487" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32627645" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,12 +497,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ass1_nameCard/MainTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/ass1_nameCard/MainCard.java" />
-    <entry file="file://$PROJECT_DIR$/src/ass1_nameCard/CardOrder.java" />
-    <entry file="file://$PROJECT_DIR$/src/ass1_nameCard/CardInteraction.java" />
-    <entry file="file://$PROJECT_DIR$/src/ass3/ScatterPlot.java" />
-    <entry file="file://$PROJECT_DIR$/src/ass3/DataPoint02.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ass3/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ass3/ChartInteraction.java" />
     <entry file="file://$PROJECT_DIR$/src/ass3/ChartOrder.java" />
@@ -574,13 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -668,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_1019/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -728,15 +725,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_2644/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        <state relative-caret-position="108">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bj_1406/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bj_5014/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#1452#1460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heap_test/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heap_test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tes02/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bj_3055/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800">
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#581#588#0" expanded="true" />
           </folding>
         </state>
       </provider>
