@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SDS_TEST_PAGE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SDS_TEST_SURVIVOR/source.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,14 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SDS_TEST_PAGE/Main.java">
+      <file leaf-file-name="source.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SDS_TEST_SURVIVOR/source.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-738">
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -111,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ass2_4/ToyCar.java" />
         <option value="$PROJECT_DIR$/src/ass2_4/Toy.java" />
         <option value="$PROJECT_DIR$/src/ass2_3/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_11403/Main.java" />
@@ -162,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/tes02/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_3055/Main.java" />
         <option value="$PROJECT_DIR$/src/SDS_TEST_PAGE/Main.java" />
+        <option value="$PROJECT_DIR$/src/SDS_TEST_SURVIVOR/source.java" />
       </list>
     </option>
   </component>
@@ -249,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.source">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -271,17 +268,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SDS_TEST_PAGE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_5014.Main" />
-      <module name="algor" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bj_5014.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,6 +296,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="source" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDS_TEST_SURVIVOR.source" />
+      <module name="algor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDS_TEST_SURVIVOR.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -363,19 +360,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.source" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.source" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -408,12 +405,12 @@
       <workItem from="1528277654939" duration="7141000" />
       <workItem from="1528328296049" duration="2370000" />
       <workItem from="1528356882009" duration="4655000" />
-      <workItem from="1531970202370" duration="4363000" />
+      <workItem from="1531970202370" duration="8392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45867000" />
+    <option name="totallyTimeSpent" value="49896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +440,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.44209215" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" visible="true" weight="0.16527778" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" visible="true" weight="0.27569443" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -482,7 +479,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ass3/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ass3/ChartInteraction.java" />
     <entry file="file://$PROJECT_DIR$/src/ass3/ChartOrder.java" />
     <entry file="file://$PROJECT_DIR$/src/ass3/DataPoint.java" />
@@ -764,11 +760,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SDS_TEST_PAGE/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="432">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SDS_TEST_SURVIVOR/source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
