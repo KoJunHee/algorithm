@@ -1,123 +1,125 @@
 package bj_2468;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
+class Point {
+    private int i, j;
+
+    public Point(int i, int j) {
+        this.i = i;
+        this.j = j;
+    }
+
+    public int getI() {
+        return i;
+    }
+
+    public int getJ() {
+        return j;
+    }
+}
+
 public class Main {
-    static int n;
-    static int originalArea[][], waterArea[][];
-    static boolean isVisitied[][];
-    static int max = 0, min = Integer.MAX_VALUE;
-    static int cnt;
-    static int cntMax = 0;
+    static int n, buildingMinHeight = 100, buildingMaxHeight = 1;
     static int dx[] = {0, 0, 1, -1};
     static int dy[] = {1, -1, 0, 0};
+    static int arr[][];
+    static boolean isVisited[][];
+    static int ans = 1;
 
     public static void main(String[] args) {
-
-        //입력
         input();
 
-        for (int height = min; height < max; height++) {
-
-            //물에 잠김
-            underWater(height);
-            cnt = 0;
-
-            //방문 배열 초기화
-            for (int q = 1; q <= n; q++) {
-                for (int w = 1; w <= n; w++) {
-                    isVisitied[q][w] = false;
-                }
-            }
-
-            //DFS
-            for (int j = 1; j <= n; j++) {
-                for (int k = 1; k <= n; k++) {
-                    if (!isVisitied[j][k] && waterArea[j][k] != -1) {
-                        cnt++;
-                        dfs(j, k);
-                    }
-                }
-            }
-
-            //안전 영역 최대값 초기화
-            cntMax = cnt > cntMax ? cnt : cntMax;
+        for (int i = buildingMinHeight; i < buildingMaxHeight; i++) {
+            solve(i);
         }
 
-        System.out.println(cntMax);
-
+        System.out.println(ans);
     }
 
     public static void input() {
         Scanner scanner = new Scanner(System.in);
-
-        //행과 열의 개수
         n = scanner.nextInt();
+        arr = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = scanner.nextInt();
 
-        //배열 초기화
-        originalArea = new int[n + 1][n + 1];
-        waterArea = new int[n + 1][n + 1];
-        isVisitied = new boolean[n + 1][n + 1];
+                //min
+                if (arr[i][j] < buildingMinHeight) {
+                    buildingMinHeight = arr[i][j];
+                }
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                originalArea[i][j] = scanner.nextInt();
-
-                //최대값, 최소값
-                max = max > originalArea[i][j] ? max : originalArea[i][j];
-                min = min < originalArea[i][j] ? min : originalArea[i][j];
+                //max
+                if (arr[i][j] > buildingMaxHeight) {
+                    buildingMaxHeight = arr[i][j];
+                }
             }
         }
-
         scanner.close();
     }
 
+    public static void solve(int waterHeight) {
 
-    static void underWater(int height) {
+        int cnt = 0;
+        isVisited = new boolean[n][n];
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-
-                if (originalArea[i][j] <= height) {
-                    waterArea[i][j] = -1;
+        //기존 배열을 복사한 임시 배열 && 물에 잠긴 영역 체크
+        int temp[][] = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (arr[i][j] <= waterHeight) {
+                    temp[i][j] = -1;
                 } else {
-                    waterArea[i][j] = originalArea[i][j];
+                    temp[i][j] = arr[i][j];
                 }
-
             }
         }
 
-//        System.out.println("**********************+ " + height);
-//        System.out.println("====================== water array");
-//        for(int i=1; i<=n; i++){
-//            for(int j=1; j<=n ;j++){
-//                System.out.print(waterArea[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
+        //BFS로 안정 영역 개수 체크
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+
+                //아직 방문하지 않았고 && 잠기지 않았으면
+                if (!isVisited[i][j] && temp[i][j] != -1) {
+                    bfs(temp, i, j);
+                    cnt++;
+                }
+            }
+        }
+
+        if (cnt > ans) {
+            ans = cnt;
+        }
+
     }
 
+    public static void bfs(int temp[][], int i, int j) {
+        Queue<Point> queue = new LinkedList<Point>();
 
-    static void dfs(int i, int j) {
+        queue.add(new Point(i, j));
+        isVisited[i][j] = true;
 
-        isVisitied[i][j] = true;
+        while (!queue.isEmpty()) {
+            Point curPoint = queue.remove();
 
-        //동서남북
-        for (int k = 0; k < 4; k++) {
+            //next point
+            for (int k = 0; k < 4; k++) {
+                int nextI = curPoint.getI() + dx[k];
+                int nextJ = curPoint.getJ() + dy[k];
 
-            int newX = i + dx[k];
-            int newY = j + dy[k];
-
-            //영역 안인지
-            if (newX >= 1 && newX <= n && newY >= 1 && newY <= n) {
-
-                //아직 방문하지 않았는지
-                if (!isVisitied[newX][newY] && waterArea[newX][newY] != -1) {
-                    dfs(newX, newY);
+                //범위 안에 있고 && 아직 방문하지 않았고 && 잠기지 않았으면
+                if (nextI >= 0 && nextI < n && nextJ >= 0 && nextJ < n
+                        && !isVisited[nextI][nextJ]
+                        && temp[nextI][nextJ] != -1) {
+                    queue.add(new Point(nextI, nextJ));
+                    isVisited[nextI][nextJ] = true;
                 }
             }
-
         }
+
 
     }
 
