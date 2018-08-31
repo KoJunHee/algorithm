@@ -1,4 +1,4 @@
-package bj_1$5685;
+package bj_15685;
 import java.util.ArrayList;
 import java.util.Scanner;
 
