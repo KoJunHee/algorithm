@@ -1,10 +1,12 @@
 package bj_14890;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     static int n, l, ans = 0;
     static int map[][];
+    static boolean isVisited[];
 
     public static void main(String[] args) {
         input();
@@ -22,70 +24,121 @@ public class Main {
                 map[i][j] = scanner.nextInt();
             }
         }
+        isVisited = new boolean[n];
     }
 
     public static void solve() {
-
-        //길이 체크 배열
-        int lengthArr[] = new int[n];
-        lengthArr[0] = 1;
-        boolean ansFlag = true;
-        boolean downFlag = false;
-
         for (int i = 0; i < n; i++) {
-            for (int j = 1; j < n; j++) {
-                if (map[i][j] == map[i][j - 1]) {
-                    lengthArr[j] = lengthArr[j - 1] + 1;
+            //행 체크
+            Arrays.fill(isVisited, false);
+            checkRows(i, 0);
 
-                    if (downFlag && lengthArr[j-1] == l) {
-                        downFlag = false;
-                        lengthArr[j] = 0;
-                    }
-                } else if (map[i][j] == map[i][j - 1] + 1) {
-                    if (downFlag && lengthArr[j - 1] < l) {
-                        ansFlag = false;
-                        break;
-                    }
-                    lengthArr[j] = 1;
-                    if (map[i][j - 1] < l) {
-                        ansFlag = false;
-                        break;
-                    }
-                } else if (map[i][j] == map[i][j] - 1) {
-                    if (downFlag && lengthArr[j - 1] < l) {
-                        ansFlag = false;
-                        break;
-                    }
-                    lengthArr[j] = 1;
-                    downFlag = true;
+            //열 체크
+            Arrays.fill(isVisited, false);
+            checkColumns(0, i);
+        }
+    }
+
+    public static void checkRows(int r, int c) {
+        //end
+        if (c == n - 1) {
+            ans++;
+            return;
+        }
+
+        //같은 높이
+        if (map[r][c] == map[r][c + 1]) {
+            checkRows(r, c + 1);
+        }
+
+        //1 높아지기 전
+        else if (map[r][c] == map[r][c + 1] - 1) {
+            //경사로 둘 수 없는 경우
+            if (c + 1 - l < 0) {
+                return;
+            }
+
+            //경사로 세울 수 있는지 체크
+            for (int i = 0; i < l; i++) {
+                if (!isVisited[c - i]) {
+                    isVisited[c - i] = true;
+                } else return;
+            }
+
+            //다음 차례
+            checkRows(r, c + 1);
+        }
+
+        //1 낮아지기 전
+        else if (map[r][c] == map[r][c + 1] + 1) {
+            //경사로를 둘 수 없는 경우
+            if (c + l > n - 1) {
+                return;
+            }
+
+            //경사로 세울수 있는지 체크
+            for (int i = 1; i <= l; i++) {
+                if (!isVisited[c + i] && map[r][c] == map[r][c + i] + 1) {
+                    isVisited[c + i] = true;
                 } else {
-                    ansFlag = false;
-                    break;
+                    return;
                 }
             }
 
+            //다음 차례
+            checkRows(r, c + l);
+        }
+    }
 
-            if (ansFlag) {
-                ans++;
-            }
-
-            //초기화
-            for (int k = 1; k < n; k++) {
-                lengthArr[k] = 0;
-            }
-            ansFlag = true;
-            downFlag = false;
-
-
+    public static void checkColumns(int r, int c) {
+        //end
+        if (r == n - 1) {
+            ans++;
+            return;
         }
 
+        //같은 높이
+        if (map[r][c] == map[r + 1][c]) {
+            checkColumns(r + 1, c);
+        }
 
-//        //세로줄
-//        for (int j = 0; j < n; j++) {
-//            for (int i = 0; i < n; i++) {
-//
-//            }
-//        }
+        //1 높아지기 전
+        else if (map[r][c] == map[r + 1][c] - 1) {
+            //경사로 둘 수 없는 경우
+            if (r + 1 - l < 0) {
+                return;
+            }
+
+            //경사로 세울 수 있는지 체크
+            for (int i = 0; i < l; i++) {
+                if (!isVisited[r - i]) {
+                    isVisited[r - i] = true;
+                } else return;
+            }
+
+            //다음 차례
+            checkColumns(r + 1, c);
+        }
+
+        //1 낮아지기 전
+        else if (map[r][c] == map[r + 1][c] + 1) {
+            //경사로를 둘 수 없는 경우
+            if (r + l > n - 1) {
+                return;
+            }
+
+            //경사로 세울수 있는지 체크
+            for (int i = 1; i <= l; i++) {
+                if (!isVisited[r + i] && map[r][c] == map[r + i][c] + 1) {
+                    isVisited[r + i] = true;
+                } else {
+                    return;
+                }
+            }
+
+            //다음 차례
+            checkColumns(r + l, c);
+        }
     }
 
     public static void print() {

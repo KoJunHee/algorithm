@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bj_14890/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14890/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algor/bj_14890/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj_14890/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj_14890/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +76,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bj_14889/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+            <state relative-caret-position="1134">
+              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <element signature="e#2157#2158#0" expanded="true" />
                 <element signature="e#2196#2197#0" expanded="true" />
@@ -88,11 +89,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bj_14890/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            <state relative-caret-position="-1956">
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
               <folding>
-                <element signature="e#2322#2323#0" expanded="true" />
-                <element signature="e#2361#2362#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,7 +117,6 @@
       <find>getDecendingXDataPoints</find>
       <find>a[][]</find>
       <find>a</find>
-      <find>System</find>
       <find>sys</find>
       <find>arr</find>
       <find>reco</find>
@@ -141,6 +142,7 @@
       <find>isRemain</find>
       <find>solve</find>
       <find>init</find>
+      <find>System</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -231,10 +233,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="127" />
-    <option name="y" value="24" />
-    <option name="width" value="1518" />
-    <option name="height" value="1057" />
+    <option name="x" value="166" />
+    <option name="y" value="23" />
+    <option name="width" value="1240" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -244,19 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="algorithm" type="cbb8eebc:String" user="algorithm" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,6 +280,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="algorithm" type="cbb8eebc:String" user="algorithm" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +301,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -493,12 +495,13 @@
       <workItem from="1535535671939" duration="6086000" />
       <workItem from="1535613855379" duration="6468000" />
       <workItem from="1535713635504" duration="4438000" />
-      <workItem from="1535772003658" duration="6286000" />
+      <workItem from="1535772003658" duration="12482000" />
+      <workItem from="1535861324013" duration="5199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105415000" />
+    <option name="totallyTimeSpent" value="116810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,7 +513,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="24" width="1518" height="1057" extended-state="0" />
+    <frame x="166" y="23" width="1240" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
@@ -521,19 +525,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50416666" side_tool="true" weight="0.3985056" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" weight="0.38356164" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49583334" visible="true" weight="0.38453713" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.44209215" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" visible="true" weight="0.21541502" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" weight="0.30503732" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="5" sideWeight="0.5516812" side_tool="true" weight="0.23125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
+      <window_info id="Favorites" order="5" sideWeight="0.5516812" side_tool="true" weight="0.23125" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3298611" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -884,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_14889/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        <state relative-caret-position="1134">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           <folding>
             <element signature="e#2157#2158#0" expanded="true" />
             <element signature="e#2196#2197#0" expanded="true" />
@@ -895,11 +899,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_14890/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        <state relative-caret-position="-1956">
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
           <folding>
-            <element signature="e#2322#2323#0" expanded="true" />
-            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
           </folding>
         </state>
       </provider>
