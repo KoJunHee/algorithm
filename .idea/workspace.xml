@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bj_14503/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj_14500/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakao_demo01/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakao_demo02/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakao_test01/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakao_test02/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakao_test03/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakao_test04/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakao_test05/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,15 +41,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bj_14503/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/bj_14500/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="-972">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#1065#1072#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>copy</find>
       <find>dfs</find>
       <find>system</find>
       <find>isvi</find>
@@ -91,6 +95,7 @@
       <find>output</find>
       <find>nextY</find>
       <find>nextDirection</find>
+      <find>arrayList</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -113,6 +118,7 @@
       <replace>cost</replace>
       <replace>ny</replace>
       <replace>nd</replace>
+      <replace>stageList</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -121,13 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/adapterPattern/TurkeyAdapter.java" />
-        <option value="$PROJECT_DIR$/src/adapterPattern/Main.java" />
-        <option value="$PROJECT_DIR$/src/bj_6603/Main.java" />
-        <option value="$PROJECT_DIR$/src/bj_10026/Main.java" />
-        <option value="$PROJECT_DIR$/src/bj_3187/LineChecker.java" />
-        <option value="$PROJECT_DIR$/src/bj_3187/Checker.java" />
-        <option value="$PROJECT_DIR$/src/bj_3187/Dfs.java" />
         <option value="$PROJECT_DIR$/src/bj_3187/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_1963/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_9372/Main.java" />
@@ -172,6 +171,13 @@
         <option value="$PROJECT_DIR$/src/swa_4301/Solution.java" />
         <option value="$PROJECT_DIR$/src/bj_15683/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_14503/Main.java" />
+        <option value="$PROJECT_DIR$/src/kakao_demo01/Solution.java" />
+        <option value="$PROJECT_DIR$/src/kakao_demo02/Solution.java" />
+        <option value="$PROJECT_DIR$/src/kakao_test02/Solution.java" />
+        <option value="$PROJECT_DIR$/src/kakao_test01/Solution.java" />
+        <option value="$PROJECT_DIR$/src/kakao_test04/Solution.java" />
+        <option value="$PROJECT_DIR$/src/kakao_test03/Solution.java" />
+        <option value="$PROJECT_DIR$/src/bj_14500/Main.java" />
       </list>
     </option>
   </component>
@@ -185,10 +191,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="793" />
     <option name="y" value="23" />
-    <option name="width" value="1127" />
-    <option name="height" value="1048" />
+    <option name="width" value="1390" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,29 +219,13 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="swa_4301" type="462c0819:PsiDirectoryNode" />
+              <item name="bj_14500" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="resources.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="resources.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kakao_test03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -246,6 +235,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -257,7 +247,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -292,61 +281,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_15683.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bj_14500.Main" />
       <module name="algor" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bj_15683.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swa_1859.Main" />
-      <module name="algor" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="swa_1859.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_14503.Main" />
-      <module name="algor" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bj_14503.*" />
+          <option name="PATTERN" value="bj_14500.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swa_4301.Solution" />
+      <option name="MAIN_CLASS_NAME" value="kakao_test03.Solution" />
       <module name="algor" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swa_4301.*" />
+          <option name="PATTERN" value="kakao_test03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kakao_test01.Solution" />
+      <module name="algor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kakao_test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kakao_test02.Solution" />
+      <module name="algor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kakao_test02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swa_1859_again.Solution" />
+      <option name="MAIN_CLASS_NAME" value="kakao_test04.Solution" />
       <module name="algor" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swa_1859_again.*" />
+          <option name="PATTERN" value="kakao_test04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -406,19 +395,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -475,12 +464,16 @@
       <workItem from="1536627801968" duration="6354000" />
       <workItem from="1536656930248" duration="6755000" />
       <workItem from="1536716056402" duration="10185000" />
-      <workItem from="1536753179170" duration="12088000" />
+      <workItem from="1536753179170" duration="12534000" />
+      <workItem from="1536979828548" duration="16727000" />
+      <workItem from="1537026573702" duration="1668000" />
+      <workItem from="1537031340120" duration="1291000" />
+      <workItem from="1537256278861" duration="6867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191548000" />
+    <option name="totallyTimeSpent" value="218547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,12 +485,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="793" y="23" width="1127" height="1048" extended-state="0" />
+    <frame x="0" y="23" width="1390" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49730563" weight="0.32241556" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49730563" weight="0.32129514" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -505,18 +498,18 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" weight="0.49383983" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49583334" weight="0.38729763" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.44209215" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" weight="0.23443224" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" visible="true" weight="0.23381294" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" sideWeight="0.5516812" side_tool="true" weight="0.23125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39877924" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985056" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3298611" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,73 +538,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bj_4991/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bj_11568/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/com/sun/org/apache/bcel/internal/generic/INVOKESTATIC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bj_1389/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="92" column="25" lean-forward="true" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bj_14502/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bj_1966/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bj_11576_again/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bj_2251/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bj_1015/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_1019/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -877,9 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,15 +817,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algor.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_14503/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="175">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao_demo01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao_test05/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao_demo02/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao_test02/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao_test01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao_test04/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao_test03/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bj_14500/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#1065#1072#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
           </folding>
         </state>
       </provider>
