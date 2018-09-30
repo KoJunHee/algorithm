@@ -9,7 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
         input();
-        dfs(1, 1, 0, map);
+        solve();
+
     }
 
     public static void input() {
@@ -27,90 +28,76 @@ public class Main {
         }
     }
 
-    public static void dfs(int row, int col, int cnt, int arr[][]) {
-
-        //예외 처리
-        if (cnt <= 3) {
-            if (isJtoJ(arr)) {
-                if (cnt == 1) {
-                    ans = 1;
-                }
-                return;
+    public static void solve() {
+        for (int i = 0; i <= 3; i++) {
+            dfs(i, 0, map, 1, 1);
+            if (ans != -1) {
+                break;
             }
-        } else {
+        }
+        System.out.println(ans);
+    }
+
+    public static void dfs(int maxCnt, int curCnt, int curMap[][], int row, int col) {
+
+        //copy
+        int tempMap[][] = new int[h + 1][n + 1];
+        for (int i = 1; i <= h; i++) {
+            for (int j = 1; j <= n; j++) {
+                tempMap[i][j] = curMap[i][j];
+            }
+        }
+
+        if (maxCnt == curCnt) {
+            if (checkLadder(tempMap)) {
+                ans = curCnt;
+            }
             return;
         }
 
-        //copy
-        int copyArr[][] = new int[h + 1][n + 1];
-        for (int i = 1; i <= h; i++) {
-            for (int j = 1; j <= n; j++) {
-                copyArr[i][j] = arr[i][j];
-            }
-        }
-
-        //dfs
         for (int i = row; i <= h; i++) {
             for (int j = col; j <= n; j++) {
-                if (check(copyArr, i, j)) {
-                    copyArr[i][j] = 1;
-                    copyArr[i][j + 1] = 2;
-                    if (j == n - 1) {
-                        dfs(i + 1, 1, cnt + 1, copyArr);
-                        if(ans==1){
-                            return;
-                        }
-                        copyArr[i][j] = 0;
-                        copyArr[i][j + 1] = 0;
-                    } else {
-                        dfs(i, j + 1, cnt + 1, copyArr);
-                        if(ans==1){
-                            return;
-                        }
-                        copyArr[i][j] = 0;
-                        copyArr[i][j + 1] = 0;
+                if (j + 1 <= n && tempMap[i][j] == 0 && tempMap[i][j + 1] == 0) {
+                    tempMap[i][j] = 1;
+                    tempMap[i][j + 1] = 2;
+                    dfs(maxCnt, curCnt + 1, tempMap, i, j);
+                    if (ans != -1) {
+                        return;
                     }
-                }
-                if (j == n) {
-                    col = 1;
+                    tempMap[i][j] = 0;
+                    tempMap[i][j + 1] = 0;
                 }
             }
+            col = 1;
         }
     }
 
-    public static boolean check(int arr[][], int row, int col) {
+    public static boolean checkLadder(int curMap[][]) {
 
-        //copy
-        int copyArr[][] = new int[h + 1][n + 1];
-        for (int i = 1; i <= h; i++) {
-            for (int j = 1; j <= n; j++) {
-                copyArr[i][j] = arr[i][j];
-            }
-        }
-
-        if (col + 1 <= n && copyArr[row][col] == 0 && copyArr[row][col + 1] == 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public static boolean isJtoJ(int arr[][]) {
         for (int j = 1; j <= n; j++) {
             int row = 1;
             int col = j;
+
+            // check if j to j
             while (true) {
-                if (arr[row][col] == 1) {
-                    col += 1;
-                    row += 1;
-                } else if (arr[row][col] == 2) {
-                    col -= 1;
-                    row += 1;
-                } else if (arr[row][col] == 0) {
-                    row += 1;
+                int num = curMap[row][col];
+
+                switch (num) {
+                    case 0:
+                        row++;
+                        break;
+                    case 1:
+                        row++;
+                        col++;
+                        break;
+                    case 2:
+                        row++;
+                        col--;
+                        break;
                 }
 
-                if (row > h) {
+                //arrived
+                if (row == h + 1) {
                     if (col == j) {
                         break;
                     } else {
@@ -120,16 +107,5 @@ public class Main {
             }
         }
         return true;
-    }
-
-
-    // for test
-    public static void print(int arr[][]) {
-        for (int i = 1; i <= h; i++) {
-            for (int j = 1; j <= n; j++) {
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
     }
 }
