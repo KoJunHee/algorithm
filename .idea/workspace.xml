@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bj_15684_again/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kakao_test01_again/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/line01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/line02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/line03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/line04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/line05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhn01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhn02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhn03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhn04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kakao_test02_again/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_13460/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algor/bj_13460/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,14 +33,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kakao_test01_again/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="918">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#163#179#0" expanded="true" />
+                <element signature="e#620#636#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/kakao_test02_again/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1003#1009#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,7 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>movedLoation03</find>
       <find>originalArr</find>
       <find>leng</find>
       <find>originalArea[1].length</find>
@@ -100,6 +101,7 @@
       <find>map</find>
       <find>print</find>
       <find>record</find>
+      <find>FailRate</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -125,6 +127,7 @@
       <replace>stageList</replace>
       <replace>copyArr</replace>
       <replace>sby</replace>
+      <replace>Fail</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -133,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/heap_test/Main.java" />
         <option value="$PROJECT_DIR$/src/heap_test/Heap.java" />
         <option value="$PROJECT_DIR$/src/tes02/Main.java" />
         <option value="$PROJECT_DIR$/src/bj_3055/Main.java" />
@@ -184,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/nhn03/Main.java" />
         <option value="$PROJECT_DIR$/src/nhn04/Main.java" />
         <option value="$PROJECT_DIR$/src/kakao_test01_again/Solution.java" />
+        <option value="$PROJECT_DIR$/src/kakao_test02_again/Solution.java" />
       </list>
     </option>
   </component>
@@ -197,9 +200,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
+    <option name="x" value="85" />
     <option name="y" value="23" />
-    <option name="width" value="1053" />
+    <option name="width" value="1257" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -235,6 +238,19 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kakao_test01_again" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kakao_test02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kakao_test02" type="462c0819:PsiDirectoryNode" />
+              <item name="Solution.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -299,17 +315,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="nhn04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="line02.Main" />
-      <module name="algor" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="line02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,6 +337,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="nhn03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kakao_test02_again.Solution" />
+      <module name="algor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kakao_test02_again.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,19 +418,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -488,12 +504,12 @@
       <workItem from="1538181334523" duration="652000" />
       <workItem from="1538182336337" duration="6513000" />
       <workItem from="1538199531652" duration="6392000" />
-      <workItem from="1538290316894" duration="4124000" />
+      <workItem from="1538290316894" duration="7413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313054000" />
+    <option name="totallyTimeSpent" value="316343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,7 +521,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="387" y="23" width="1053" height="877" extended-state="0" />
+    <frame x="85" y="23" width="1257" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -522,7 +538,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.44209215" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" weight="0.209375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4483188" visible="true" weight="0.17501989" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -562,13 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bj_15686/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bj_11403_again/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -913,11 +922,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kakao_test01_again/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="918">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#163#179#0" expanded="true" />
+            <element signature="e#620#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao_test02_again/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1003#1009#0" expanded="true" />
           </folding>
         </state>
       </provider>
