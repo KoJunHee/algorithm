@@ -1,140 +1,177 @@
 package swa_2383;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 class Person {
     int x, y;
+    int stairNum;
+    int stairDist;
+    int restTime;
 
-    public Person(int x, int y) {
+    public Person(int x, int y, int stairNum, int stairDist, int restTime) {
         this.x = x;
         this.y = y;
-    }
-}
-
-class Stair {
-    int x, y, length;
-
-    public Stair(int x, int y, int length) {
-        this.x = x;
-        this.y = y;
-        this.length = length;
+        this.stairNum = stairNum;
+        this.stairDist = stairDist;
+        this.restTime = restTime;
     }
 }
 
 public class Solution {
     static Scanner scanner = new Scanner(System.in);
-    static int n, personCnt = 0;
+    static int n;
     static int map[][];
-    static ArrayList<Person> stair01 = new ArrayList<Person>();
-    static ArrayList<Person> stair02 = new ArrayList<Person>();
-    static ArrayList<Stair> stairs = new ArrayList<Stair>();
-    static Queue<Person> arr[] = new Queue[11];
-
+    static ArrayList<Person> persons;
+    static int personCnt;
+    static int stairAX, stairAY, stairBX, stairBY;
+    static int stairAT, stairBT;
+    static int ans;
 
     public static void main(String[] args) {
         int tc = scanner.nextInt();
         for (int i = 1; i <= tc; i++) {
             input();
-            dfs(0, 0, 0, stair01, stair02);
+            dfs(0, new boolean[personCnt], new boolean[personCnt]);
+            System.out.println("#" + i + " " + ans);
         }
     }
 
     public static void input() {
+        persons = new ArrayList<Person>();
         n = scanner.nextInt();
         map = new int[n][n];
+        stairAX = -1;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 map[i][j] = scanner.nextInt();
                 if (map[i][j] == 1) {
-                    personCnt++;
+                    persons.add(new Person(i, j, 0, 0, 0));
                 } else if (map[i][j] >= 2) {
-                    stairs.add(new Stair(i, j, map[i][j]));
+                    if (stairAX == -1) {
+                        stairAX = i;
+                        stairAY = j;
+                        stairAT = map[i][j];
+                    } else {
+                        stairBX = i;
+                        stairBY = j;
+                        stairBT = map[i][j];
+                    }
                 }
             }
         }
+        personCnt = persons.size();
+        ans = Integer.MAX_VALUE;
 
-        for (int i = 1; i <= 10; i++) {
-            arr[i] = new LinkedList<Person>();
-        }
     }
 
-    public static void dfs(int row, int col, int cnt,
-                           ArrayList<Person> stair01, ArrayList<Person> stair02) {
-
-        if (cnt == personCnt + 1) {
-            calTime(stair01, stair02);
+    public static void dfs(int idx, boolean stairA[], boolean stairB[]) {
+        if (idx == personCnt) {
+            calDistanceToStair(stairA, stairB);
+            move();
             return;
         }
 
         //copy
-        ArrayList<Person> copyStair01 = new ArrayList<Person>();
-        ArrayList<Person> copyStair02 = new ArrayList<Person>();
-        for (int i = 0; i < stair01.size(); i++) {
-            copyStair01.add(stair01.get(i));
-        }
-        for (int i = 0; i < stair02.size(); i++) {
-            copyStair02.add(stair02.get(i));
+        boolean copyStairA[] = new boolean[personCnt];
+        boolean copyStairB[] = new boolean[personCnt];
+        for (int i = 0; i < personCnt; i++) {
+            copyStairA[i] = stairA[i];
+            copyStairB[i] = stairB[i];
         }
 
+        copyStairA[idx] = true;
+        dfs(idx + 1, copyStairA, copyStairB);
+        copyStairA[idx] = false;
 
-        for (int i = row; i < n; i++) {
-            for (int j = col; j < n; j++) {
+        copyStairB[idx] = true;
+        dfs(idx + 1, copyStairA, copyStairB);
+        copyStairB[idx] = false;
+    }
 
-                if (map[i][j] != 1) {
-                    continue;
+    public static void move() {
+        boolean arrivedPerson[] = new boolean[personCnt];
+        ArrayList<Person> stairAStatus = new ArrayList<Person>();
+        ArrayList<Person> stairBStatus = new ArrayList<Person>();
+
+        int time = 1;
+        int ansCnt = 0;
+        while (true) {
+
+            //계단 내려가고 있는 사람
+            for (int i = 0; i < stairAStatus.size(); i++) {
+                Person person = stairAStatus.get(i);
+                person.restTime -= 1;
+                if (person.restTime == 0) {
+                    ansCnt++;
+                    stairAStatus.remove(i);
                 }
 
-                copyStair01.add(new Person(i, j));
-                dfs(i, j, cnt + 1, copyStair01, copyStair02);
-                copyStair01.remove(copyStair01.size() - 1);
-
-                copyStair02.add(new Person(i, j));
-                dfs(i, j, cnt + 1, copyStair01, copyStair02);
-                copyStair02.remove(copyStair01.size() - 1);
             }
-            col = 0;
-        }
+            for (int i = 0; i < stairBStatus.size(); i++) {
+                Person person = stairBStatus.get(i);
+                person.restTime -= 1;
+                if (person.restTime == 0) {
+                    ansCnt++;
+                    stairBStatus.remove(i);
+                }
+            }
 
+            if (ansCnt == personCnt) {
+                ans = ans < time ? ans : time;
+                return;
+            }
+
+            //계단에 이미 도착한 사람 체크
+            for (int i = 0; i < personCnt; i++) {
+                if (arrivedPerson[i]) {
+                    int stairNum = persons.get(i).stairNum;
+                    if (stairNum == 1) {
+                        //내려가기 시작
+                        if (stairAStatus.size() <= 2) {
+                            Person person = persons.get(i);
+                            person.restTime = stairAT;
+                            stairAStatus.add(person);
+                            arrivedPerson[i] = false;
+                        }
+                    } else {
+                        //내려가기 시작
+                        if (stairBStatus.size() <= 2) {
+                            Person person = persons.get(i);
+                            person.restTime = stairBT;
+                            stairBStatus.add(person);
+                            arrivedPerson[i] = false;
+                        }
+                    }
+                }
+            }
+
+            //계단에 도착한 사람을 배열에 저장
+            for (int i = 0; i < personCnt; i++) {
+                Person person = persons.get(i);
+                if (person.stairDist == time) {
+                    arrivedPerson[i] = true;
+                }
+            }
+
+
+            //시간 증가
+            time++;
+        }
     }
 
-    public static void calTime(ArrayList<Person> stair01, ArrayList<Person> stair02) {
-        //copy
-        ArrayList<Person> copyStair01 = new ArrayList<Person>();
-        ArrayList<Person> copyStair02 = new ArrayList<Person>();
-        for (int i = 0; i < stair01.size(); i++) {
-            copyStair01.add(stair01.get(i));
-        }
-        for (int i = 0; i < stair02.size(); i++) {
-            copyStair02.add(stair02.get(i));
-        }
-
-        //각 사람에서 계단 까지 거리
-        int cnt = 0;
-        int timeToStair[] = new int[personCnt];
-        for (Person person : copyStair01) {
-            int dist = Math.abs(person.x - stairs.get(0).x) + Math.abs(person.y - stairs.get(0).y);
-            timeToStair[cnt++] = dist;
-        }
-
-        for (Person person : copyStair02) {
-            int dist = Math.abs(person.x - stairs.get(1).x) + Math.abs(person.y - stairs.get(1).y);
-            timeToStair[cnt++] = dist;
-        }
-
-        //각 사람에서 계단 까지 거리의 최소값 구하기
-        int min = Integer.MAX_VALUE;
+    public static void calDistanceToStair(boolean stairA[], boolean stairB[]) {
         for (int i = 0; i < personCnt; i++) {
-            min = timeToStair[i] < min ? timeToStair[i] : min;
+            if (stairA[i]) {
+                Person person = persons.get(i);
+                person.stairDist = Math.abs(person.x - stairAX) + Math.abs(person.y - stairAY);
+                person.stairNum = 1;
+            } else if (stairB[i]) {
+                Person person = persons.get(i);
+                person.stairDist = Math.abs(person.x - stairBX) + Math.abs(person.y - stairBY);
+                person.stairNum = 2;
+            }
         }
-
-        //시간 경과하면서
-        for (int time = min + 1; ; time++) {
-
-        }
-
-
     }
+
 }
