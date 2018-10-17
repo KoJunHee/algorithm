@@ -20,7 +20,8 @@ public class Main {
 
     public static void main(String[] args) {
         input();
-        solve();
+        dfs(0, map);
+        System.out.println(ans);
     }
 
     public static void input() {
@@ -36,11 +37,6 @@ public class Main {
                 }
             }
         }
-    }
-
-    public static void solve() {
-        dfs(0, map);
-        System.out.println(ans);
     }
 
     public static void dfs(int index, int map[][]) {
@@ -59,7 +55,6 @@ public class Main {
             return;
         }
 
-
         int copyMap[][] = new int[n][m];
         int tempMap[][] = new int[n][m];
         for (int i = 0; i < n; i++) {
@@ -68,7 +63,6 @@ public class Main {
                 tempMap[i][j] = map[i][j];
             }
         }
-
 
         Camera camera = cameras.get(index);
         int num = camera.num;
@@ -92,7 +86,6 @@ public class Main {
                 }
                 drawSouth(index, copyMap);
                 dfs(index + 1, copyMap);
-
 
                 for (int i = 0; i < n; i++) {
                     for (int j = 0; j < m; j++) {
