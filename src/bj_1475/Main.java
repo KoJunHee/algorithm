@@ -1,58 +1,66 @@
 package bj_1475;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void add(ArrayList<Integer> a) {
-
-        for (int i = 0; i < 9; i++) {
-            a.add(i);
-        }
-        a.add(6);
-
-    }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        String line = scanner.nextLine();
 
-        String input = scanner.nextLine();
+        int numbers[] = new int[10];
+        Arrays.fill(numbers, 1);
+        int cnt = 1;
 
-        //9를 6으로 대체
-        input = input.replace('9', '6');
+        for (int i = 0; i < line.length(); i++) {
+            int num = line.charAt(i) - '0';
 
-        //세트에 들어 있는 숫자들
-        ArrayList<Integer> a = new ArrayList<Integer>();
-
-        //초기 10개
-        add(a);
-        int cnt = 10;
-
-        //세트 개수
-        int ans = 1;
-
-        for (int i = 0; i < input.length(); i++) {
-            boolean flag = true;
-
-            for (int j = 0; j < cnt; j++) {
-                //숫자를 찾았으면
-                if (a.get(j) == (input.charAt(i) - '0')) {
-                    a.set(j, -1);   //replace
-                    flag = false;
-                    break;
+            if (num == 6) {
+                if (numbers[6] == 0) {
+                    if (numbers[9] == 0) {
+                        cnt++;
+                        for (int j = 0; j < 10; j++) {
+                            numbers[j]++;
+                        }
+                        numbers[num]--;
+                    } else {
+                        numbers[9]--;
+                        continue;
+                    }
+                } else {
+                    numbers[6]--;
+                    continue;
+                }
+            } else if (num == 9) {
+                if (numbers[9] == 0) {
+                    if (numbers[6] == 0) {
+                        cnt++;
+                        for (int j = 0; j < 10; j++) {
+                            numbers[j]++;
+                        }
+                        numbers[num]--;
+                    } else {
+                        numbers[6]--;
+                        continue;
+                    }
+                } else {
+                    numbers[9]--;
+                    continue;
+                }
+            } else {
+                if (numbers[num] == 0) {
+                    cnt++;
+                    for (int j = 0; j < 10; j++) {
+                        numbers[j]++;
+                    }
+                    numbers[num]--;
+                } else {
+                    numbers[num]--;
+                    continue;
                 }
             }
-
-            //숫자를 못 찾았으면
-            if (flag) {
-                add(a);
-                cnt += 10;
-                ans++;
-            }
         }
-
-        System.out.println(ans);
-
+        System.out.println(cnt);
     }
 }
