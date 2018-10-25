@@ -2,8 +2,10 @@ package casting;
 
 public class Main {
     public static void main(String[] args) {
-        double a = 3.14;
-        int b = (int)a;
-        System.out.println(b);
+        byte a = 1;
+        int b = (int) a;
+        int c = a;
+        System.out.println("explict casting : " + b);
+        System.out.println("implicit casting : " + c);
     }
 }
