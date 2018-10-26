@@ -15,7 +15,6 @@ public class Main {
 
         for (int i = 0; i < line.length(); i++) {
             int num = line.charAt(i) - '0';
-
             if (num == 6) {
                 if (numbers[6] == 0) {
                     if (numbers[9] == 0) {
