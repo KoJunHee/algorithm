@@ -31,6 +31,7 @@ public class Main {
     }
 
     public static void dfs(int curIdx, boolean idxArr[], boolean alphabetArr[], int teachableCnt, int depthCnt, int wordCnt) {
+//        System.out.println(curIdx + " " + depthCnt);
         //copy
         boolean copyIdxArr[] = new boolean[n];
         boolean copyAlphabetsArr[] = new boolean[26];
@@ -63,19 +64,17 @@ public class Main {
 
         //새로 배워야하는 단어 개수가, 배울 수 있는 단어 개수 보다 작거나 같으면
         //배웠다고 체크
+        boolean flag = false;
         if (cnt <= teachableCnt) {
-            wordCnt++;
+            flag = true;
             for (int i = 0; i < curString.length(); i++) {
                 char ch = curString.charAt(i);
                 int idx = (int) ch - 97;
                 copyAlphabetsArr[idx] = true;
             }
-            teachableCnt -= cnt;
         }
 
         if (depthCnt == n) {
-            System.out.println(wordCnt);
-
             ans = wordCnt > ans ? wordCnt : ans;
             return;
         }
@@ -84,7 +83,7 @@ public class Main {
         //next
         for (int i = 0; i < n; i++) {
             if (!copyIdxArr[i]) {
-                dfs(i, copyIdxArr, copyAlphabetsArr, teachableCnt, depthCnt++, wordCnt);
+                dfs(i, copyIdxArr, copyAlphabetsArr, flag == true ? teachableCnt-cnt: teachableCnt, depthCnt + 1, flag == true ? wordCnt + 1 : wordCnt);
             }
         }
 
