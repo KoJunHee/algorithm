@@ -37,7 +37,6 @@ public class Solution {
                 while (!queue.isEmpty()) {
                     tempQueue.add(queue.remove());
                 }
-
                 //저장
                 queue.add(arr[i]);
 
