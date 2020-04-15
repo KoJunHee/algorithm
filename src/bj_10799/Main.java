@@ -1,45 +1,40 @@
 package bj_10799;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
 
-    //main
     public static void main(String[] args) {
-        Scanner kb = new Scanner(System.in);
-        String input = kb.nextLine();
-        System.out.println(solve(input));
+        String input = getInput();
+        int result = getResultFrom(input);
+        System.out.println(result);
     }
 
-    //풀이
-    static int solve(String input) {
-
-        Stack stack = new Stack();
-
-        int flag = 0;
-        int res = 0;
+    private static int getResultFrom(String input) {
+        Stack<Character> stack = new Stack<>();
+        int result = 0;
 
         for (int i = 0; i < input.length(); i++) {
-
-            // '(' 이면 push1
-            // ')' 이면 바로 전 문자가
-            // 1 -  '(' 이면 pop 하고, stack size를 더함
-            // 2 -  ')' 이면 1을 더하고 pop
-
-            if (input.charAt(flag)=='(')
-                stack.push('(');
-            else {
-                if(input.charAt(flag-1)=='('){
+            char current = input.charAt(i);
+            if (current == '(') {
+                stack.push(current);
+            } else {
+                char before = input.charAt(i - 1);
+                if (before == '(') {
                     stack.pop();
-                    res+=stack.size();
-                }else if(input.charAt(flag-1)==')') {
-                    res += 1;
+                    result += stack.size();
+                } else {
+                    result += 1;
                     stack.pop();
                 }
             }
-            flag++;
         }
-        return res;
+
+        return result;
     }
 
+    private static String getInput() {
+        return new Scanner(System.in).nextLine();
+    }
 }
