@@ -8,6 +8,7 @@ class Solution {
 
             for (int j = i + 1; j < nums.length; j++) {
                 int secondNum = nums[j];
+
                 if (firstNum + secondNum == target) {
                     return new int[]{i, j};
                 }
