@@ -2,7 +2,291 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f20fcdc-7e0f-4cb5-9147-c3d80a814798" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_two_sum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_remove_element/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/SDS_TEST_PAGE/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/SDS_TEST_SPACE_again/source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/SDS_TEST_SURVIVOR/source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10026/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1015/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1019/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1026/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10430/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10451/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1062/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1075/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10799/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10799/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10799/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10809/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10820/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10824/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10845/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10845/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_10845/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1085/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11005/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11048/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11052/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11053/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11053_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11054/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11055/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11055_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11057/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11066/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11403/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11403_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1149/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1152/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11568/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1157/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11576/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11576_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11654/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11655/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11656/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1167/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1167/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11722/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11724/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11725/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11726/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11727/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_11866/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_12100/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1260/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_12761/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_12761/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1297/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1309/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1339/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1344/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_13458/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_13460/Balls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_13460/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1371/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1373/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1389/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1389/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1406/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1406/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1406/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1406_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1406_again/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1406_again/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14499/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14500/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14501/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14501/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14501_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14502/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14502/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14502_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14502_02/Virus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14503/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14503/Robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14503_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1463/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1475/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14888/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14888_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14888_02/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14888_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14888_again/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14889/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14889_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14890/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14890_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14891/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_14891_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1520/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1563/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15653/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15683/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15683/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15683_02/Camera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15683_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15684/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15684_03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15684_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15685/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15685_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15686/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15686/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15686_03/Chicken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15686_03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15686_again/Chicken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_15686_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_16234/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_16234/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_16235/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_16235_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_16236/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_16236/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1676/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1697/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1697/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1699/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1707/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1720/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1764/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1789/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1904/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1912/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1920/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1924/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1934/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1947/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1953/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1953/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1963/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1965/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1966/Docu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1966/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_1991/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2011/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2089/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2133/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2146/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2146/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2156/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2178/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2178/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2193/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2225/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2251/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2251/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2331/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2468/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2468/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2579/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2583/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2600/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2606/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2609/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2631/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2644/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2644/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2666/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2667/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2668/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2668_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2688/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2745/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2810/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2839/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2851/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2908/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2914/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2935/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_2968/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3055/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3055/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3067/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3187/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3190/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3190/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3190/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3933/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_3986/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_4991/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_4991/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_5014/Floor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_5014/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_6359/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_6603/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_7562/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_7562/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_7576/Main$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_7576/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_8979/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_8979_again/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_8979_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9012/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9012/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9012/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9084/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9095/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9372/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9375/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9461/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9465/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9466/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9507/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9613/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_9996/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_stack/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_stack/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/bj_stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/casting/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/eleven_street01/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/eleven_street02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/eleven_street03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/heap_test/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/heap_test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/java_sort/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/java_sort/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/java_sort/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_demo01/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_demo02/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test01/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test01/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test01_again/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test02/Comparatorr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test02/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test02/Stage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test02_again/Fail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test02_again/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test03/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test04/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/kakao_test05/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/leetcode_two_sum/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/line01/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/line02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/line02/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/line03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/line04/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/line05/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/nhn01/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/nhn02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/nhn03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/nhn04/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/nhn04/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/prgms_nlcm/NLCM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/prms_caesar/Caesar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/prms_jumpCase/JumpCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/prms_nextBiggerNumer/TryHelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/prms_noOvertime/NoOvertime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/progms_test01/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/sw_5644/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1204/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1206/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1219/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1244/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1767/Core.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1767/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1859/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1859_again/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1953/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_1953/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_2105/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_2117/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_2117_02/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_2117_02/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_2382/Micro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_2382/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_3503/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_3503_02/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_4013/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_4014/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_4301/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_4613/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_5653/Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_5653/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_5656/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_5656_again/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algor/swa_5658/Solution.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +310,6 @@
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
     <option name="myAutoScrollToSource" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="algor" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,20 +390,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="8e2926a8-d464-44c2-a28b-f603841f0dad" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
-    <option name="y" value="23" />
-    <option name="width" value="1330" />
-    <option name="height" value="877" />
-  </component>
+  <component name="ProjectId" id="1i017EDKgpRNBPHr2f3eKtdZvEc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;4301&#9;FILE&#9;file:///Users/junhee/dev/algorithm/src/swa_4301&#10;1276&#9;FILE&#9;file:///Users/junhee/dev/algorithm/src/bj_12761" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -137,37 +419,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bj_2668_02.Main" />
-      <module name="algor" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bj_2668_02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
-      <module name="algor" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eleven_street01.Main" />
@@ -197,6 +451,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_palindrome_number.Solution" />
+      <module name="algor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode_palindrome_number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_remove_duplicates_from_sorted_array.Solution" />
+      <module name="algor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode_remove_duplicates_from_sorted_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="swa_1219.Solution" />
       <module name="algor" />
@@ -213,6 +495,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,22 +536,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -372,7 +666,30 @@
       <workItem from="1542361624251" duration="179000" />
       <workItem from="1542664032849" duration="308000" />
       <workItem from="1542783930245" duration="1700000" />
+      <workItem from="1601029531563" duration="4236000" />
     </task>
+    <task id="LOCAL-00001" summary="ADD : leetcode_palindrome_number">
+      <created>1601033645434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601033645434</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ADD : leetcode_remove_duplicates_from_sorted_array">
+      <created>1601033661939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601033661939</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CHANGE : leetcode_two_sum">
+      <created>1601033674060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601033674060</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -385,7 +702,52 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD : leetcode_palindrome_number" />
+    <MESSAGE value="ADD : leetcode_remove_duplicates_from_sorted_array" />
+    <MESSAGE value="CHANGE : leetcode_two_sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHANGE : leetcode_two_sum" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="572" y="125" width="1007" height="852" key="CommitChangelistDialog2" timestamp="1601033673975">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="572" y="125" width="1007" height="852" key="CommitChangelistDialog2/0.23.1920.1057/-1680.-139.1680.1027@0.23.1920.1057" timestamp="1601033673975" />
+    <state x="100" y="123" width="1720" height="857" key="DiffContextDialog" timestamp="1601043819828">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="100" y="123" width="1720" height="857" key="DiffContextDialog/0.23.1920.1057/-1680.-139.1680.1027@0.23.1920.1057" timestamp="1601033663041" />
+    <state x="100" y="123" width="1720" height="857" key="DiffContextDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1601043819828" />
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1601043815928">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.-139.1680.1027@0.23.1920.1057" timestamp="1601033540754" />
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1601043815928" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1601043815927">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.-139.1680.1027@0.23.1920.1057" timestamp="1601033540753" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1601043815927" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1601043815926">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.-139.1680.1027@0.23.1920.1057" timestamp="1601033540752" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1601043815926" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1601043815927">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.-139.1680.1027@0.23.1920.1057" timestamp="1601033540753" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601043815927" />
+    <state x="757" y="261" key="RollbackChangesDialog" timestamp="1601033704387">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="757" y="261" key="RollbackChangesDialog/0.23.1920.1057/-1680.-139.1680.1027@0.23.1920.1057" timestamp="1601033704387" />
+    <state x="560" y="291" key="Vcs.Push.Dialog.v2" timestamp="1601033683662">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="560" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-1680.-139.1680.1027@0.23.1920.1057" timestamp="1601033683662" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
