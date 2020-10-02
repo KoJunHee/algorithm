@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list/solution
-package remove_duplicates_from_sorted_list;
+package leetcode_remove_duplicates_from_sorted_list;
 
 class ListNode {
     int val;
