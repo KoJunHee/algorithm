@@ -1,0 +1,15 @@
+// https://leetcode.com/problems/shuffle-string/
+package leetcode_shuffle_string;
+
+class Solution {
+
+  public String restoreString(String s, int[] indices) {
+    char[] chars = new char[s.length()];
+
+    for (int i = 0; i < indices.length; i++) {
+      chars[indices[i]] = s.charAt(i);
+    }
+
+    return new String(chars);
+  }
+}
